@@ -1,4 +1,4 @@
-<h1>Neural Network Implementation (NeuralNetwork.py)</h1>
+<h1>Neural Network Implementation (using just NumPy)</h1>
 This Python module (NeuralNetwork.py) provides a basic implementation of a neural network. It includes various activation functions, dropout functionality, and layer management. Below, we’ll explore the key components of this neural network.
 
 <h2>Components</h2>
