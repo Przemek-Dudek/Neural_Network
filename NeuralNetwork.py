@@ -183,10 +183,6 @@ class NeuralNetwork:
         if random_dropout:
             self.random_dropout_off()
 
-    def add_series(self, new_input, new_goal):
-        self.series.append(new_input)
-        self.goals.append(new_goal)
-
     def predict(self, input: list):
         layer_input = input
         for layer in self.layers:
