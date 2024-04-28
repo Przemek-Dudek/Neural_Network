@@ -21,7 +21,7 @@ This Python module (NeuralNetwork.py) provides a basic implementation of a neura
 
 <h2>Usage</h2>
 <h3>1. Creating a Neural Network:</h3>
-```Python
+```
 from NeuralNetwork import NeuralNetwork, Relu, Softmax
 
 nn = NeuralNetwork(alpha=0.01, input_size=10, dropout_probability=0.3)
@@ -30,7 +30,7 @@ nn.add_layer(n=32, activation_function=Relu())
 nn.add_layer(n=3, activation_function=Softmax())
 ```
 <h3>2. Training the Network:</h3>
-```Python
+```
 #Add training data (input-output pairs)
 nn.add_series(input_data, output_data)
 
@@ -38,7 +38,7 @@ nn.add_series(input_data, output_data)
 nn.do_epochs(epochs=10)
 ```
 <h3>3. Making Predictions:</h3>
-```Python
+```
 
 input_sample = [0.1, 0.2, ..., 0.9]
 predicted_output = nn.predict(input_sample)
